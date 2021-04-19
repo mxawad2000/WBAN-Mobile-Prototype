@@ -1,0 +1,249 @@
+configuration:
+in_layer=32 4 relu
+out_layer=2 softmax
+hid_layer=10 15 relu
+epoch_size=30
+verbose=1
+dataset_fn=./data/med/bidmc_rnn_csv.csv
+output_fn=./results/dnn_hmed_results.tst
+model_fn=./ann_models/dnn_hmed_model
+splits=10
+
+size of data:
+25208
+confusion matrix
+[[ 461  149]
+ [   2 1909]]
+confusion matrix:
+        pred:0  pred:1
+true:0     461     149
+true:1       2    1909
+fold accuracy:
+0.9401031336771123
+fold report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.76      0.86       610
+           1       0.93      1.00      0.96      1911
+
+    accuracy                           0.94      2521
+   macro avg       0.96      0.88      0.91      2521
+weighted avg       0.94      0.94      0.94      2521
+
+---------------------------
+fold time
+127858
+ millis
+confusion matrix
+[[ 467  134]
+ [   2 1918]]
+confusion matrix:
+        pred:0  pred:1
+true:0     467     134
+true:1       2    1918
+fold accuracy:
+0.9460531535105117
+fold report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.78      0.87       601
+           1       0.93      1.00      0.97      1920
+
+    accuracy                           0.95      2521
+   macro avg       0.97      0.89      0.92      2521
+weighted avg       0.95      0.95      0.94      2521
+
+---------------------------
+fold time
+135230
+ millis
+confusion matrix
+[[ 544   63]
+ [  29 1885]]
+confusion matrix:
+        pred:0  pred:1
+true:0     544      63
+true:1      29    1885
+fold accuracy:
+0.9635065450218168
+fold report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.90      0.92       607
+           1       0.97      0.98      0.98      1914
+
+    accuracy                           0.96      2521
+   macro avg       0.96      0.94      0.95      2521
+weighted avg       0.96      0.96      0.96      2521
+
+---------------------------
+fold time
+122199
+ millis
+confusion matrix
+[[ 465   85]
+ [  50 1921]]
+confusion matrix:
+        pred:0  pred:1
+true:0     465      85
+true:1      50    1921
+fold accuracy:
+0.946449821499405
+fold report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.85      0.87       550
+           1       0.96      0.97      0.97      1971
+
+    accuracy                           0.95      2521
+   macro avg       0.93      0.91      0.92      2521
+weighted avg       0.95      0.95      0.95      2521
+
+---------------------------
+fold time
+135333
+ millis
+confusion matrix
+[[ 511   87]
+ [  13 1910]]
+confusion matrix:
+        pred:0  pred:1
+true:0     511      87
+true:1      13    1910
+fold accuracy:
+0.9603332011106703
+fold report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.85      0.91       598
+           1       0.96      0.99      0.97      1923
+
+    accuracy                           0.96      2521
+   macro avg       0.97      0.92      0.94      2521
+weighted avg       0.96      0.96      0.96      2521
+
+---------------------------
+fold time
+118762
+ millis
+confusion matrix
+[[ 492  123]
+ [  53 1853]]
+confusion matrix:
+        pred:0  pred:1
+true:0     492     123
+true:1      53    1853
+fold accuracy:
+0.9301864339547798
+fold report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.80      0.85       615
+           1       0.94      0.97      0.95      1906
+
+    accuracy                           0.93      2521
+   macro avg       0.92      0.89      0.90      2521
+weighted avg       0.93      0.93      0.93      2521
+
+---------------------------
+fold time
+128340
+ millis
+confusion matrix
+[[ 501   84]
+ [   3 1933]]
+confusion matrix:
+        pred:0  pred:1
+true:0     501      84
+true:1       3    1933
+fold accuracy:
+0.9654898849662832
+fold report:
+              precision    recall  f1-score   support
+
+           0       0.99      0.86      0.92       585
+           1       0.96      1.00      0.98      1936
+
+    accuracy                           0.97      2521
+   macro avg       0.98      0.93      0.95      2521
+weighted avg       0.97      0.97      0.96      2521
+
+---------------------------
+fold time
+118217
+ millis
+confusion matrix
+[[ 509   93]
+ [   4 1915]]
+confusion matrix:
+        pred:0  pred:1
+true:0     509      93
+true:1       4    1915
+fold accuracy:
+0.9615232050773502
+fold report:
+              precision    recall  f1-score   support
+
+           0       0.99      0.85      0.91       602
+           1       0.95      1.00      0.98      1919
+
+    accuracy                           0.96      2521
+   macro avg       0.97      0.92      0.94      2521
+weighted avg       0.96      0.96      0.96      2521
+
+---------------------------
+fold time
+127381
+ millis
+confusion matrix
+[[ 520   71]
+ [  24 1905]]
+confusion matrix:
+        pred:0  pred:1
+true:0     520      71
+true:1      24    1905
+fold accuracy:
+0.9623015873015873
+fold report:
+              precision    recall  f1-score   support
+
+           0       0.96      0.88      0.92       591
+           1       0.96      0.99      0.98      1929
+
+    accuracy                           0.96      2520
+   macro avg       0.96      0.93      0.95      2520
+weighted avg       0.96      0.96      0.96      2520
+
+---------------------------
+fold time
+120655
+ millis
+confusion matrix
+[[ 548   61]
+ [  26 1885]]
+confusion matrix:
+        pred:0  pred:1
+true:0     548      61
+true:1      26    1885
+fold accuracy:
+0.9654761904761905
+fold report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.90      0.93       609
+           1       0.97      0.99      0.98      1911
+
+    accuracy                           0.97      2520
+   macro avg       0.96      0.94      0.95      2520
+weighted avg       0.97      0.97      0.97      2520
+
+---------------------------
+fold time
+121644
+ millis
+overall accuracy:
+0.9541423156595707
+overall time:
+1255715
+time per split:
+125562.9
