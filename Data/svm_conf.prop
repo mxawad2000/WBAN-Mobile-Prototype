@@ -1,0 +1,7 @@
+#SVM configuration C= 2^11, gamma = 2^-2
+svm_type=0
+kernel=2
+C=1
+gamma=0.15
+coef0=0
+degree=2
